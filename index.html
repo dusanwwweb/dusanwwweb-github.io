@@ -1,0 +1,466 @@
+<!--Copyright © 2020 Josif Milenkovic-->
+<!DOCTYPE html>
+<html lang="de-DE">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Dusan Drobnjakovic - www.dusanweb.com" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/icon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/icon/favicon-16x16.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="animate.min.css">
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+    <title>Architekt Josif Milenkovic</title>
+  </head>
+  <body>
+    <section id="hero" class="hero">
+      <div class="hero-slider">
+        <div class="slider">
+          <div class="slide">
+            <div class="caption">
+              <p class="caption__title">
+                Lorem ipsum dolor sit
+              </p>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="caption">
+              <p class="caption__title">
+                Lorem ipsum dolor sit
+              </p>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="caption">
+              <p class="caption__title">
+                Lorem ipsum dolor sit
+              </p>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="caption">
+              <p class="caption__title">
+                Lorem ipsum dolor sit
+              </p>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="caption">
+              <p class="caption__title">
+                Lorem ipsum dolor sit
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="menu-bar">
+          <div id="menu" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+          </div>
+          <ul class="lang-nav" id="lang-nav">         
+            <li><a class="lang-nav-link" href="https://josifmilenkovic.com/en">english</a></li>
+            <li><a class="lang-nav-link" href="https://josifmilenkovic.com/de">deutsch</a></li>
+          </ul>
+        </div>
+        <div class="menu-bg" id="menu-bg"></div>
+
+      <aside class="lang">
+        <ul class="lang__list">
+          <li><a class="lang__list__link" href="https://josifmilenkovic.com/en">eng</a></li>
+          <li><p>/</p></li>
+          <li><a class="lang__list__link" href="https://josifmilenkovic.com/de">deutsch</a></li>
+        </ul>
+      </aside>
+
+      <header class="head">
+        <div class="head-title">
+          <h1 class="title" >
+            <span class="title__lg">
+              Architekt
+            </span>
+            <br />
+            <span class="title__md">
+              Josif
+            </span>
+            <span class="title__sm">
+              Milenkovic
+            </span>
+          </h1>
+        </div>
+
+        <div class="head-navbar">
+          <nav class="nav">
+            <ul class="nav__list">
+              <li><a class="nav__list__link" href="about.html">über</a></li>
+              <li><a class="nav__list__link" href="contact.html">kontakt</a></li>
+              <li><a class="nav__list__link" href="works.html">projekte</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <a href="#content">
+        <i class="fas fa-angle-down pulsate-bck arrow-down"></i>
+      </a>
+    </section>
+
+    <section data-scroll class="hero-space" id="content">
+      <h2 class="space-title hero--left">PROJEKTE</h2>
+    </section>
+
+    <section >
+      <!-- GRID -->
+      <div data-scroll class="project">
+        <figure class="project__preview project-works" id="slidr-1">
+          <img class="project-img-works" data-slidr="one" src="https://picsum.photos/900/400" />
+          <img class="project-img-works" data-slidr="two" src="https://picsum.photos/900/400" />
+          <img class="project-img-works" data-slidr="three" src="https://picsum.photos/900/400" />
+          <figcaption class="project-title">
+            Project 1
+          </figcaption>
+        </figure>
+        
+        <div class="project__description">
+          <h3 class="project-header">
+            Conceptual architectural design of the tourist complex with villas,
+            shopping mall, open swimming pool, artificial islands and tower
+            restaurant
+          </h3>
+          
+          <p class="project-client">
+            <span class="bold">client:</span>
+              Sheikh Mohammed bin Saqr al Qassimi
+          </p>
+          <p class="project-location">
+            <span class="bold">location:</span>
+            Ras Al Khaimah, UAE
+          </p>
+          <p class="project-area">
+            <span class="bold">area:</span>
+            78 ha
+          </p>
+          <p class="project-team">
+            <span class="bold">team:</span>
+            Dragan Mitić, Josif Milenković
+          </p>
+          <div class="btn">
+            <a class="btn__link" href="./works.html">
+              see all projects
+            </a>
+          </div>  
+        </div>
+      </div>
+
+      <div  data-scroll class="project">
+          <figure class="project__preview project-works" id="slidr-2">
+              <img class="project-img-works" data-slidr="one" src="https://picsum.photos/400/400" />
+              <img class="project-img-works" data-slidr="two" src="https://picsum.photos/400/400" />
+              <img class="project-img-works" data-slidr="three" src="https://picsum.photos/400/400" />
+              <figcaption class="project-title">
+                Project 2
+              </figcaption>
+            </figure>
+        <div class="project__description">
+          <h3 class="project-header">
+            Conceptual architectural design of the tourist complex with villas,
+            shopping mall, open swimming pool, artificial islands and tower
+            restaurant
+          </h3>
+          
+          <p class="project-client">
+            <span class="bold">client:</span>
+              Sheikh Mohammed bin Saqr al Qassimi
+          </p>
+          <p class="project-location">
+            <span class="bold">location:</span>
+            Ras Al Khaimah, UAE
+          </p>
+          <p class="project-area">
+            <span class="bold">area:</span>
+            78 ha
+          </p>
+          <p class="project-team">
+            <span class="bold">team:</span>
+            Dragan Mitić, Josif Milenković
+          </p>
+          <div class="btn">
+            <a class="btn__link" href="./architecture.html">
+              see all projects
+            </a>
+          </div>  
+        </div>
+        <b class="project__break"></b>
+      </div>
+
+      <div data-scroll class="project">
+        <figure class="project__preview project-works" id="slidr-3">
+          <img class="project-img-works" data-slidr="one" src="https://picsum.photos/600/400" />
+          <img class="project-img-works" data-slidr="two" src="https://picsum.photos/600/400" />
+          <img class="project-img-works" data-slidr="three" src="https://picsum.photos/600/400" />
+          <figcaption class="project-title">
+            Project 3
+          </figcaption>
+        </figure>
+
+        <div class="project__description">
+          <h3 class="project-header">
+            Conceptual architectural design of the tourist complex with villas,
+            shopping mall, open swimming pool, artificial islands and tower
+            restaurant
+          </h3>
+
+          <p class="project-client">
+            <span class="bold">client:</span>
+            Sheikh Mohammed bin Saqr al Qassimi
+          </p>
+          <p class="project-location">
+            <span class="bold">location:</span>
+            Ras Al Khaimah, UAE
+          </p>
+          <p class="project-area">
+            <span class="bold">area:</span>
+            78 ha
+          </p>
+          <p class="project-team">
+            <span class="bold">team:</span>
+            Dragan Mitić, Josif Milenković
+          </p>
+          <div class="btn">
+            <a class="btn__link" href="./works.html">
+              see all projects
+            </a>
+          </div> 
+        </div>
+      </div>
+
+      <div data-scroll class="project">
+        <figure class="project__preview project-works" id="slidr-4">
+          <img class="project-img-works" data-slidr="one" src="https://picsum.photos/800/400" />
+          <img class="project-img-works" data-slidr="two" src="https://picsum.photos/800/400" />
+          <img class="project-img-works" data-slidr="three" src="https://picsum.photos/800/400" />
+          <figcaption class="project-title">
+            Project 4
+          </figcaption>
+        </figure>
+
+        <div class="project__description">
+          <h3 class="project-header">
+            Conceptual architectural design of the tourist complex with villas,
+            shopping mall, open swimming pool, artificial islands and tower
+            restaurant
+          </h3>
+
+          <p class="project-client">
+            <span class="bold">client:</span>
+            Sheikh Mohammed bin Saqr al Qassimi
+          </p>
+          <p class="project-location">
+            <span class="bold">location:</span>
+            Ras Al Khaimah, UAE
+          </p>
+          <p class="project-area">
+            <span class="bold">area:</span>
+            78 ha
+          </p>
+          <p class="project-team">
+            <span class="bold">team:</span>
+            Dragan Mitić, Josif Milenković
+          </p>
+          <div class="btn">
+            <a class="btn__link" href="./works.html">
+              see all projects
+            </a>
+          </div> 
+        </div>
+      </div>
+    </section>
+
+    <section  data-scroll class="hero-space">
+      <div class="hero-colored hero--lighter"></div>
+      <h2 class="space-title hero--left">ÜBER</h2>
+    </section>
+    
+    <section>
+      <div class="about__content">
+        <div data-scroll class="photo">
+          <figure><img src="img/misc/josif_milenkovic.jpg" alt="portrait"></figure>
+        </div>
+          <div data-scroll class="job">
+            <h3 class="job__title">Work experience</h3>
+            <ul>
+              <li>
+                <h3><a href="http://www.plan4architekten.de">Plan4Architekten, Munchen</a></h3>
+                <br>
+                <p>Construction supervisor on project <a href="https://www.bgu-frankfurt.de/">Berufsgenossenschaftliche Unfallklinik Frankfurt</a></p>
+              </li>
+  
+              <li>
+                <h3><a href="https://www.vpcuprija.com/">Vodoprivredno preduzeće Ćuprija A.D. Ćuprija, Serbia</a></h3>
+                <br>
+                <p>Responsible construction supervisor and architect for projects in national parks</p>
+              </li>
+  
+              <li>
+                <h3>Energosistem Čogurić d.o.o. Leskovac, Serbia</h3>
+                <br>
+                <p>Design project leader and construction supervising of project „Sport and recreational
+                   hotel complex Pasha’s Fountain“, Serbia (4 * Hotel with conference hall, wellness and                
+                   spa center, Sports hall and an Olympic swimming pool, restaurant with stands next to                
+                   soccer fields, eco park, jogging trail, ...); covering area 80 ha
+                   Investor - „Emirates Power" UAE;
+                </p>
+                <br>
+                <p>Conceptual design and visualisation of the tourist complex with villas, shopping mall,
+                  open swimming pool, artificial islands and restaurant in Ras Al Khaimah, UAE, covering area 80 ha               
+                  client - Sheikh Mohammed bin Saqr al Qassimi;
+                </p>
+                <br>
+                <p>
+                  Conceptual design for the new RAK Hotel in Ras Al Khaimah, UAE,
+                  client - Sheikh Mohammed bin Saqr al Qassimi;
+                </p>
+              </li>
+            </ul>
+           </div>
+          
+          <div data-scroll class="reward">
+            <h3 class="reward__title">Rewards and competitions</h3>
+            <ul>
+              <li>Open competition for city gates of Vrnjačka Spa,Serbia, 3rd prize</li>
+              <li>Special award for   design and contribution to affirmation of the profession,Vlasotince, Serbia</li>
+              <li>Competition for the uban architetual solutions for three city fountains</li>
+            </ul>
+          </div>
+  
+         <div data-scroll class="education">
+           <h3 class="education__title">Education</h3>
+           <p>Faculty of Civil Engineering and Architecture in Niš, 
+             Niš University, Serbia <br>
+             Master Engineer of Architecture
+           </p>
+         </div>
+      </div>
+    </section>
+
+    <section  data-scroll class="hero-space">
+      <div class="hero-colored hero--darker"></div>
+      <h2 class="space-title hero--left">KONTAKT</h2>
+    </section>
+
+    <section class="contact">  
+        <div data-scroll class="contact__info">
+          <ul class="info-list">
+            <li>
+              <a href="tel:+4917644451756" target="_blank">+491 7644451756</a>
+            </li>
+            <li>
+              <a href="mailto:josifmilenkovic@gmail.com" target="_blank"
+                >josifmilenkovic@gmail.com</a
+              >
+            </li>
+            <li>
+              <a href="https://www.behance.net/josif" target="_blank">Behance</a>
+            </li>
+            <li>
+              <a href="https://www.xing.com/profile/Josif_Milenkovic" target="_blank"
+                >Xing</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+    <section class="footer">
+        <footer class="foot">
+
+              <img class="foot__logo" src="img/icon/logo-josif.png" alt="logo">
+
+              <address class="foot__addresse">
+                <ul class="address-list">
+                  <li><a href="tel:+4917644451756" target="_blank">
+                    <i class="fas fa-phone-square icon"></i></a>
+                  </li>
+                  <li><a href="mailto:josifmilenkovic@gmail.com" target="_blank"><i class="fas fa-envelope-square icon"></i></a></li>
+                  <li><a href="https://www.xing.com/profile/Josif_Milenkovic" target="_blank">
+                    <i class="fab fa-xing-square icon"></i></a>
+                  </li>
+                  <li><a href="https://www.behance.net/josif" target="_blank"><i class="fab fa-behance-square icon"></i></a></li>
+                </ul>
+              </address>
+
+              <div class="foot__navbar">
+                  <nav class="nav">
+                    <ul class="nav__list">              
+                      <li><a class="nav__list__link" href="about.html">über</a></li>
+                      <li><a class="nav__list__link" href="contact.html">kontakt</a></li>
+                      <li><a class="nav__list__link" href="works.html">projekte</a></li>
+                    </ul>
+                  </nav>
+              </div>
+              <a href="#hero"><i class="far fa-arrow-alt-circle-up arrow-up"></i></a> 
+          </footer>
+          <div class="foot-info">
+            <p>josif milenković - master engineer of architecture © All Rights Reserved</p>
+            <p>website creation - <a target="_blank" href="http://www.dusanweb.com">www.dusanweb.com</a></p>
+          </div> 
+    </section>
+    
+    <script src="script/main.js"></script>
+    <script>
+      // import ScrollOut from "./node_modules/scroll-out/dist/scroll-out.min.js"
+      ScrollOut({
+        once: true,
+        treshold: 0.8,
+      });
+    </script>
+    <script src="script/slidr.min.js"></script>
+    <script>
+      slidr.create("slidr-1", {
+      breadcrumbs: true,
+      touch: true
+    })
+    .start(); 
+      slidr.create("slidr-2", {
+      breadcrumbs: true,
+      touch: true
+    })
+    .start(); 
+      slidr.create("slidr-3", {
+      breadcrumbs: true,
+      touch: true
+    })
+    .start(); 
+    slidr.create("slidr-4", {
+      breadcrumbs: true,
+      touch: true
+    })
+    .start();    
+  </script>  
+  </body>
+</html>

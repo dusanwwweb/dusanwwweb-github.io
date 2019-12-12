@@ -1,0 +1,432 @@
+<!--Copyright © 2020 Josif Milenkovic-->
+<!DOCTYPE html>
+<html lang="de-DE">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Dusan Drobnjakovic - www.dusanweb.com" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/icon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/icon/favicon-16x16.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="animate.min.css">
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+    <title>Projekte</title>
+  </head>
+  <body id="up">
+    <section class="hero-space">
+      <h2 class="space-title work-title hero--left">PROJEKTE</h2>
+    </section>
+
+    <aside class="lang">
+      <ul class="lang__list">
+        <li><a class="lang__list__link" href="https://josifmilenkovic.wixsite.com/home">eng</a></li>
+        <li><p>/</p></li>
+        <li><a class="lang__list__link" href="http://www.dusanweb.com">deutsch</a></li>
+      </ul>
+    </aside>
+
+    <section class="grid-wrapper">
+      <div class="filter-controls">
+        <div class="control">
+          <p>Search</p>
+          <input
+            class="search-field form-control"
+            type="text"
+            name="search"
+            placeholder="Search by name"
+          />
+        </div>
+        <div class="control">
+          <p>Filter</p>
+          <select class="filter-field form-control">
+            <option value="">None</option>
+            <option value="res">Residence</option>
+            <option value="urb">Urbanisme</option>
+            <option value="stu">Study</option>
+            <option value="con">Concurs</option>
+          </select>
+        </div>
+        <div class="control">
+          <p>Sort</p>
+          <select class="sort-field form-control">
+            <option value="order">None</option>
+            <option value="title">Order by title</option>
+            <option value="area">Order by area</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="item red w2 h2" data-area="res" data-title="z">
+          <div class="item-content">
+            <div class="custom-content">
+              <div class="thumbnail">
+                <a href="#project_01">
+                  <img
+                    class="thumbnail__image"
+                    src="https://picsum.photos/300"
+                    alt=""
+                  />
+                  <div class="thumbnail__overlay">
+                    <div class="overlay-title">work 1</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item blue h2 w2" data-area="urb" data-title="Khaimah">
+          <div class="item-content">
+            <div class="custom-content">
+              <div class="thumbnail">
+                <a href="#project_02">
+                  <img
+                    class="thumbnail__image"
+                    src="https://picsum.photos/200"
+                    alt=""
+                  />
+                  <div class="thumbnail__overlay">
+                    <div class="overlay-title">work 2</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item green h2 w2" data-area="stu" data-title="p">
+          <div class="item-content">
+            <div class="custom-content">
+              <div class="thumbnail">
+                <a href="#project_03">
+                  <img
+                    class="thumbnail__image"
+                    src="https://picsum.photos/400"
+                    alt=""
+                  />
+                  <div class="thumbnail__overlay">
+                    <div class="overlay-title">work 3</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item yellow w2 h2" data-area="con" data-title="i">
+          <div class="item-content">
+            <div class="custom-content">
+              <div class="thumbnail">
+                <a href="#project_01">
+                  <img
+                    class="thumbnail__image"
+                    src="https://picsum.photos/500"
+                    alt=""
+                  />
+                  <div class="thumbnail__overlay">
+                    <div class="overlay-title">work 4</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item red w2 h2" data-area="res" data-title="e">
+          <div class="item-content">
+            <div class="custom-content">
+              <div class="thumbnail">
+                <a href="#project_01">
+                  <img
+                    class="thumbnail__image"
+                    src="https://picsum.photos/900"
+                    alt=""
+                  />
+                  <div class="thumbnail__overlay">
+                    <div class="overlay-title">work 5</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item blue w2 h2" data-area="urb" data-title="f">
+          <div class="item-content">
+            <div class="custom-content">
+              <div class="thumbnail">
+                <a href="#project_01">
+                  <img
+                    class="thumbnail__image"
+                    src="https://picsum.photos/100"
+                    alt=""
+                  />
+                  <div class="thumbnail__overlay">
+                    <div class="overlay-title">work 6</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item green w2 h2" data-area="stu" data-title="e">
+          <div class="item-content">
+            <div class="custom-content">
+              <div class="thumbnail">
+                <a href="#project_01">
+                  <img
+                    class="thumbnail__image"
+                    src="https://picsum.photos/600"
+                    alt=""
+                  />
+                  <div class="thumbnail__overlay">
+                    <div class="overlay-title">work 7</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item yellow w2 h2" data-area="con" data-title="g">
+          <div class="item-content">
+            <div class="custom-content">
+              <div class="thumbnail">
+                <a href="#project_01">
+                  <img
+                    class="thumbnail__image"
+                    src="https://picsum.photos/800"
+                    alt=""
+                  />
+                  <div class="thumbnail__overlay">
+                    <div class="overlay-title">work 8</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <!-- GRID -->
+    
+      <div data-scroll class="project " id="project_01">
+        <figure class="project__preview project-works" id="slidr-1">
+          <img class="project-img-works" data-slidr="one" src="https://picsum.photos/700/1000" />
+          <img class="project-img-works" data-slidr="two" src="https://picsum.photos/700/1000" />
+          <img class="project-img-works" data-slidr="three" src="https://picsum.photos/700/1000" />
+          <img class="project-img-works" data-slidr="four" src="https://picsum.photos/700/1000" />
+     
+          <figcaption class="project-title">
+            Project 1
+          </figcaption>
+        </figure>
+
+        <div class="project__description">
+          <h3 class="project-header">
+            Conceptual architectural design of the tourist complex with villas,
+            shopping mall, open swimming pool, artificial islands and tower
+            restaurant
+          </h3>
+
+          <p class="project-client">
+            <span class="bold">client:</span>
+            Sheikh Mohammed bin Saqr al Qassimi
+          </p>
+          <p class="project-location">
+            <span class="bold">location:</span>
+            Ras Al Khaimah, UAE
+          </p>
+          <p class="project-area">
+            <span class="bold">area:</span>
+            78 ha
+          </p>
+          <p class="project-team">
+            <span class="bold">team:</span>
+            Dragan Mitić, Josif Milenković
+          </p>
+        </div>
+      </div>
+      
+      <div data-scroll class="project" id="project_02">
+        <figure class="project__preview project-works" id="slidr-2">
+          <img class="project-img-works" data-slidr="one" src="https://picsum.photos/900/900" />
+          <img class="project-img-works" data-slidr="two" src="https://picsum.photos/900/900" />
+          <img class="project-img-works" data-slidr="three" src="https://picsum.photos/900/900" />
+          <figcaption class="project-title">
+            Project 1
+          </figcaption>
+        </figure>
+    
+
+        <div class="project__description">
+          <h3 class="project-header">
+            Conceptual architectural design of the tourist complex with villas,
+            shopping mall, open swimming pool, artificial islands and tower
+            restaurant
+          </h3>
+
+          <p class="project-client">
+            <span class="bold">client:</span>
+            Sheikh Mohammed bin Saqr al Qassimi
+          </p>
+          <p class="project-location">
+            <span class="bold">location:</span>
+            Ras Al Khaimah, UAE
+          </p>
+          <p class="project-area">
+            <span class="bold">area:</span>
+            78 ha
+          </p>
+          <p class="project-team">
+            <span class="bold">team:</span>
+            Dragan Mitić, Josif Milenković
+          </p>
+        </div>
+      </div>
+
+      <div data-scroll class="project" id="project_03">
+        <figure class="project__preview project-works" id="slidr-3">
+          <img class="project-img-works" data-slidr="one" src="https://picsum.photos/400/400" />
+          <img class="project-img-works" data-slidr="two" src="https://picsum.photos/400/400" />
+          <img class="project-img-works" data-slidr="three" src="https://picsum.photos/400/400" />
+          <figcaption class="project-title">
+            Project 1
+          </figcaption>
+        </figure>
+
+        <div class="project__description">
+          <h3 class="project-header">
+            Conceptual architectural design of the tourist complex with villas,
+            shopping mall, open swimming pool, artificial islands and tower
+            restaurant
+          </h3>
+
+          <p class="project-client">
+            <span class="bold">client:</span>
+            Sheikh Mohammed bin Saqr al Qassimi
+          </p>
+          <p class="project-location">
+            <span class="bold">location:</span>
+            Ras Al Khaimah, UAE
+          </p>
+          <p class="project-area">
+            <span class="bold">area:</span>
+            78 ha
+          </p>
+          <p class="project-team">
+            <span class="bold">team:</span>
+            Dragan Mitić, Josif Milenković
+          </p>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="footer">
+      <footer class="foot">
+        <img class="foot__logo" src="img/icon/logo-josif.png" alt="logo" />
+
+        <address class="foot__addresse">
+          <ul class="address-list">
+            <li>
+              <a href="tel:+4917644451756" target="_blank"
+                ><i class="fas fa-phone-square icon"></i
+              ></a>
+            </li>
+            <li>
+              <a href="mailto:josifmilenkovic@gmail.com" target="_blank"
+                ><i class="fas fa-envelope-square icon"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.xing.com/profile/Josif_Milenkovic"
+                target="_blank"
+                ><i class="fab fa-xing-square icon"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.behance.net/josif" target="_blank"
+                ><i class="fab fa-behance-square icon"></i
+              ></a>
+            </li>
+          </ul>
+        </address>
+
+        <div class="foot__navbar">
+          <nav class="nav">
+            <ul class="nav__list">
+              <li><a class="nav__list__link" href="index.html">home</a></li>
+              <li><a class="nav__list__link" href="about.html">über</a></li>
+              <li><a class="nav__list__link" href="contact.html">kontakt</a></li>
+            </ul>
+          </nav>
+        </div>
+        <a href="#up"><i class="far fa-arrow-alt-circle-up arrow-up"></i></a>
+      </footer>
+      <div class="foot-info">
+        <p>
+          josif milenković - master engineer of architecture © All Rights
+          Reserved
+        </p>
+        <p>
+          website creation -
+          <a target="_blank" href="http://www.dusanweb.com">www.dusanweb.com</a>
+        </p>
+      </div>
+    </section>
+
+    <script src="node_modules/web-animations-js/web-animations.min.js"></script>
+    <script src="node_modules/muuri/dist/muuri.min.js"></script>
+    <script src="script/muuri.js"></script>
+    <script src="script/slidr.min.js"></script>
+    <script>
+      // import ScrollOut from "./node_modules/scroll-out/dist/scroll-out.min.js"
+      ScrollOut({
+        once: true,
+        treshold: 0.8,
+      });
+    </script>
+    <script>
+    slidr
+        .create("slidr-1", {
+          breadcrumbs: true
+        })
+        .start();
+    slidr
+        .create("slidr-2", {
+          breadcrumbs: true
+        })
+        .start();
+    slidr
+        .create("slidr-3", {
+          breadcrumbs: true
+        })
+        .start();
+    </script>
+  </body>
+</html>

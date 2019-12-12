@@ -1,0 +1,20 @@
+{
+  "name": "josif_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Dusan Drobnjakovic",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "muuri": "^0.8.0",
+    "normalize.css": "^8.0.1",
+    "sass": "^1.23.1",
+    "scroll-out": "^2.2.7",
+    "web-animations-js": "^2.3.2"
+  }
+}
